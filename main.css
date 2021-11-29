@@ -1,0 +1,156 @@
+
+input{
+	background:none;
+	outline:none;
+	border:0px solid #ccc;
+}
+input:focus{
+	border:none;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+    background:rgba(33,33,0,0.2);
+    height:100%;
+}
+
+#bg{
+ width:100%;
+ height:100%;
+ position:fixed;
+ top:0;
+ left:0;
+ z-index:-1;
+}
+#bg>img{
+ width:100%;
+ height:100%;
+}
+#main{
+    width:1070px;
+    margin:10px auto;
+}
+
+#header{
+    width:1070px;
+    margin:0px auto;
+    height:80px;
+}
+
+#h-left{
+    width:600px;
+    height:80px;
+    display:inline-block;
+    float:left;
+}
+#h-right{
+    width:470px;
+    height:80px;
+    display:inline-block;
+    float:left;
+}
+#h-left>img{
+    width:75px;
+    height:75px;
+    margin-top:2.5px;
+    float:left;
+    margin-left: 50px;
+}
+#h-left>span{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "华文彩云";
+    display:inline-block;
+    height: 80px;
+    line-height: 80px;
+    float:left;
+    margin-left:30px;
+}
+
+#h-right #search{
+    width:350px;
+    height:35px;
+    border: 1px solid #009966;
+    border-radius: 10px;
+    margin-top: 22.5px;
+}
+#search>input{
+    width:250px;
+    height:35px;
+    line-height:35px;
+    font-size:16px;
+    border-right:1px solid #009966;
+    margin-left:5px;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+#wrap{
+	width: 1070px;
+	margin: 0px auto;
+	border: 1px solid #009966;
+	border-radius: 10px;
+}
+#menu ul li{
+	float: left;
+	position: relative;
+}
+#menu{
+	width: 925px;
+	height: 37px;
+	padding-left: 145px;
+
+}
+#menu ul li a{
+	display: block;
+	width: 80px;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	font-size: 15px;
+	color: black;
+	padding: 0px 25px;
+	backdrop-filter: blur(50px);
+	border-radius: 10px;
+}
+#menu ul li a:hover{
+	background-color: orange;
+	color: #ffffff;
+	backdrop-filter: blur(50px);
+	border-radius: 10px;
+}
+#menu ul li ul li {
+	float: none;
+}
+#menu ul li ul li a{
+	float: none;
+	width: 110px;
+	border-bottom: 1px solid rgba(153,153,102,0.3);
+	
+}
+#menu ul li ul{
+	margin-left: -15px;
+	position: absolute;
+	display: none;
+	border: 1px solid #9d9d9d;
+	border-radius: 10px;
+	background-color: rgba(66,66,66,0.1);
+	margin-top: 3px;
+}
+#menu ul li:hover ul{
+	display: block;
+}
+#menu ul li ul li a:hover{
+	background-color: orange;
+	color: #000066;
+}
+#content{
+width:1070px;
+height:1000px;
+}
